@@ -54,6 +54,7 @@ function darrere () {
         sensor_darrera_esquerra = pins.digitalReadPin(DigitalPin.P4)
         sensor_darrera_dret = pins.digitalReadPin(DigitalPin.P6)
     }
+    GIRAR_VINGUENT_DARRERA2()
 }
 function GIRAR_VINGUENT_DARRERA2 () {
     microshield.MotorRun(microshield.Motors.M1, 73)
